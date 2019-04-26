@@ -36,7 +36,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.start_with?(/\W/) == true
     if text.end_with?(/\.|\?|!/) == true
-      true
+      return true
     else
       false
     end
