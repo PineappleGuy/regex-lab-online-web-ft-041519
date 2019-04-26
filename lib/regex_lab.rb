@@ -50,7 +50,7 @@ array.each do |x|
     y += 1
   end
 end
-  if y ==1 0
+  if y == 10
     return true
   else
     return false
