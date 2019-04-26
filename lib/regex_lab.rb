@@ -49,7 +49,7 @@ phone.loop do |x|
     y += 1
   end
 end
-  if x = 10
+  if y = 10
     return true
   else
     return false
