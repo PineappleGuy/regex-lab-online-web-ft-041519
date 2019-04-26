@@ -29,6 +29,7 @@ def words_five_letters_long(text)
     if word.length == 5
       five_letters << word
     end
+  end
     return five_letters
 end
 
