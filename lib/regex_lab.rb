@@ -17,8 +17,8 @@ def words_starting_with_un_and_ending_with_ing(text)
         un_array << word
       end
     end
-    return un_array
   end
+  return un_array.length
 
 end
 
