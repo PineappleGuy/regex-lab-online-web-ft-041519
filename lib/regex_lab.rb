@@ -3,9 +3,9 @@ require 'pry'
 def starts_with_a_vowel?(word)
   string = word.to_s
   if string.start_with?(/a\w+|e\w+|i\w+|o\w+|u\w+/) == true
-    return false
+    true
   else
-    return false
+    false
   end
 end
 
