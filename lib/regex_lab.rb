@@ -46,8 +46,7 @@ def valid_phone_number?(phone)
 y = 0
 array = phone.split("")
 array.each do |x|
-  if x == 1|| x == 2|| x == 3|| x == 4|| x == 5|| x == 6|| x == 7|| x == 8|| x == 9|| x == 0
-    y += 1
+  if x == (/[0-9]/)
   end
 end
   if y == 10
