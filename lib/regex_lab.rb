@@ -9,6 +9,16 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
+  un_array = []
+  array = text.split(" ")
+  array.each do |word|
+    if word.start_with?("un") == true
+      if word.end_with?("ing") == true
+        un_array << word
+      end
+    end
+    return un_array
+  end
 
 end
 
