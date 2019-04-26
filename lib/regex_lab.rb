@@ -44,7 +44,9 @@ end
 def valid_phone_number?(phone)
   binding.pry
   if phone.match(/(\d{3})-\d{3}-\d{4}|(\d{3}) \d{3} \d{4}|(\d{3})\d{3}\d{4}/) == true
-    true
+    return true
+  else
+    return false
   end
 
 end
