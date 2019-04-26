@@ -34,7 +34,7 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.start_with?(/[A-Z]/) == true && text.end_with?(/\.|\?|!/) == true
+  if text.start_with?(/[A-Z]/) == true && text.end_with?(/\.|\?|\!/) == true
     return true
   else
     return false
