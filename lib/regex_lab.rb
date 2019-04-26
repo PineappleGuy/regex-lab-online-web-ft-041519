@@ -30,11 +30,17 @@ def words_five_letters_long(text)
       five_letters << word
     end
   end
-    return five_letters
+  return five_letters
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  if text.start_with?(/\W/) == true
+    if text.end_with?(/\.|\?|!/) == true
+      return true
+    else
+      return false
+    end
+  end
 end
 
 def valid_phone_number?(phone)
