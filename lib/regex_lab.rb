@@ -46,12 +46,13 @@ def valid_phone_number?(phone)
 y = 0
 array = phone.split("")
 array.each do |x|
-  if x == (/[0-9]/)
+  if x == (0..9)
+    y += 1
   end
 end
-  if y == 10
-    return true
-  else
-    return false
-  end
+if y == 10
+  return true
+else
+  return false
+end
 end
