@@ -44,7 +44,7 @@ end
 def valid_phone_number?(phone)
 #  phone.match?(/(\d{3})\d{3}\d{4}/)
 y = 0
-phone loop do |x|
+phone.loop do |x|
   if x == (1||2||3||4||5||6||7||8||9||0)
     y += 1
   end
